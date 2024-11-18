@@ -5,10 +5,10 @@ import { useState } from "react";
 export default function Home() {
   //Aqui é o estado das imagens do copo e do fundo
   const [imagemCopo, setImagemCopo] = useState(
-    "src/assets/Images/laranja 2x 1.png"
+    "public/Images/laranja 2x 1.png"
   );
   const [imagemFundo, setImagemFundo] = useState(
-    "src/assets/Images/Ellipse 1.png"
+    "public/Images/Ellipse 1.png"
   );
 
   //Função para alterar as imagens
@@ -39,41 +39,41 @@ export default function Home() {
           <img class="fundo" src={imagemFundo} alt="elipse" />
           <div className="social">
             
-            <a href="#facebook"><img src="src\assets\Images\icons\facebook.png" alt="Facebook logo" /></a>
-            <a href="#X"><img src="src\assets\Images\icons\twitter.png" alt="X logo" /></a>
-            <a href="#instagram"><img src="src\assets\Images\icons\instagram.png" alt="Instagram logo" /></a>
+            <a href="#facebook"><img src="public\Images\icons\facebook.png" alt="Facebook logo" /></a>
+            <a href="#X"><img src="public\Images\icons\twitter.png" alt="X logo" /></a>
+            <a href="#instagram"><img src="public\Images\icons\instagram.png" alt="Instagram logo" /></a>
           </div>
         </div>
         <div className="sabores">
           <img
-            src="src\assets\Images\laranja 3.png"
+            src="public\Images\laranja 3.png"
             alt="Café com calda laranja"
             onClick={() =>
               cliqueNaImagem(
-                "src/assets/Images/laranja 2x 1.png",
-                "src/assets/Images/Ellipse 1.png"
+                "public/Images/laranja 2x 1.png",
+                "public/Images/Ellipse 1.png"
               )
             }
           />
 
           <img
-            src="src\assets\Images\amarelo 1.png"
+            src="public\Images\amarelo 1.png"
             alt="Café com calda amarela"
             onClick={() =>
               cliqueNaImagem(
-                "src/assets/Images/amarelo 2x 1.png",
-                "src/assets/Images/Ellipse amarela.png"
+                "public/Images/amarelo 2x 1.png",
+                "public/Images/Ellipse amarela.png"
               )
             }
           />
 
           <img
-            src="src\assets\Images\vermelho 1.png"
+            src="public\Images\vermelho 1.png"
             alt="Café com calda vermelha"
             onClick={() =>
               cliqueNaImagem(
-                "src/assets/Images/vermelho2x 1.png",
-                "src/assets/Images/Ellipse vermelha.png"
+                "public/Images/vermelho2x 1.png",
+                "public/Images/Ellipse vermelha.png"
               )
             }
           />
