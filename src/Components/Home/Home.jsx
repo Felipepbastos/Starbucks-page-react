@@ -39,14 +39,14 @@ export default function Home() {
           <img class="fundo" src={imagemFundo} alt="elipse" />
           <div className="social">
             
-            <a href="#facebook"><img src="public\Images\icons\facebook.png" alt="Facebook logo" /></a>
-            <a href="#X"><img src="public\Images\icons\twitter.png" alt="X logo" /></a>
-            <a href="#instagram"><img src="public\Images\icons\instagram.png" alt="Instagram logo" /></a>
+            <a href="#facebook"><img src="\Images\icons\facebook.png" alt="Facebook logo" /></a>
+            <a href="#X"><img src="\Images\icons\twitter.png" alt="X logo" /></a>
+            <a href="#instagram"><img src="\Images\icons\instagram.png" alt="Instagram logo" /></a>
           </div>
         </div>
         <div className="sabores">
           <img
-            src="public\Images\laranja 3.png"
+            src="\Images\laranja 3.png"
             alt="Café com calda laranja"
             onClick={() =>
               cliqueNaImagem(
@@ -57,7 +57,7 @@ export default function Home() {
           />
 
           <img
-            src="public\Images\amarelo 1.png"
+            src="\Images\amarelo 1.png"
             alt="Café com calda amarela"
             onClick={() =>
               cliqueNaImagem(
@@ -68,7 +68,7 @@ export default function Home() {
           />
 
           <img
-            src="public\Images\vermelho 1.png"
+            src="\Images\vermelho 1.png"
             alt="Café com calda vermelha"
             onClick={() =>
               cliqueNaImagem(
