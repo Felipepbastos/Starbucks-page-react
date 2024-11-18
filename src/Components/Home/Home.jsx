@@ -5,10 +5,10 @@ import { useState } from "react";
 export default function Home() {
   //Aqui é o estado das imagens do copo e do fundo
   const [imagemCopo, setImagemCopo] = useState(
-    "public/Images/laranja 2x 1.png"
+    "Images/laranja 2x 1.png"
   );
   const [imagemFundo, setImagemFundo] = useState(
-    "public/Images/Ellipse 1.png"
+    "Images/Ellipse 1.png"
   );
 
   //Função para alterar as imagens
@@ -50,8 +50,8 @@ export default function Home() {
             alt="Café com calda laranja"
             onClick={() =>
               cliqueNaImagem(
-                "public/Images/laranja 2x 1.png",
-                "public/Images/Ellipse 1.png"
+                "Images/laranja 2x 1.png",
+                "Images/Ellipse 1.png"
               )
             }
           />
@@ -61,8 +61,8 @@ export default function Home() {
             alt="Café com calda amarela"
             onClick={() =>
               cliqueNaImagem(
-                "public/Images/amarelo 2x 1.png",
-                "public/Images/Ellipse amarela.png"
+                "Images/amarelo 2x 1.png",
+                "Images/Ellipse amarela.png"
               )
             }
           />
@@ -72,8 +72,8 @@ export default function Home() {
             alt="Café com calda vermelha"
             onClick={() =>
               cliqueNaImagem(
-                "public/Images/vermelho2x 1.png",
-                "public/Images/Ellipse vermelha.png"
+                "Images/vermelho2x 1.png",
+                "Images/Ellipse vermelha.png"
               )
             }
           />

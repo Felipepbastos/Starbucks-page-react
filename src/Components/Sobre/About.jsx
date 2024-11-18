@@ -5,7 +5,7 @@ export default function About() {
     <AboutStyle>
         <div>
             <img
-        src="public\Images\LojaStarbucks.png"
+        src="\Images\LojaStarbucks.png"
         alt="Frente de loja starbucks em preto e branco"
       />
       </div>

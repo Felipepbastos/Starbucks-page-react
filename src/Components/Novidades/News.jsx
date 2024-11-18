@@ -15,7 +15,7 @@ export default function News() {
       </div>
       <div className="image">
         <img
-        src="public\Images\GraoCafe.png"
+        src="\Images\GraoCafe.png"
         alt="Grão de cafe com fundo colorido"
       />
       </div>
