@@ -11,11 +11,15 @@ export default function Home() {
     "Images/Ellipse 1.png"
   );
 
+
   //Função para alterar as imagens
   const cliqueNaImagem = (novaImagemCopo, novaImagemFundo) => {
     setImagemCopo(novaImagemCopo);
     setImagemFundo(novaImagemFundo);
   };
+
+
+
   return (
     <MainStyle>
       <section>

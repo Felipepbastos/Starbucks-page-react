@@ -5,7 +5,11 @@ display: flex;
 padding: 10vh 5vw 10vh 10vw;
 font-family: 'Poppins';
 
+@media(max-width: 760px){
 
+
+
+}
 .texto{
 max-width: 60%;
 padding-left: 10vw

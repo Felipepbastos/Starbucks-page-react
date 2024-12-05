@@ -6,7 +6,35 @@ background-color: #1E3932;
 color: #fff;
 padding: 20vh 5vw 68vh 5vw;
 font-family: 'Poppins';
-height: 80vh;
+height: 100vh;
+
+  @media (max-width: 760px){
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 0;
+  height: 100vh;
+
+    .texto {
+      width: 100%;
+      text-align: center; 
+      padding: 5vh 0 0 0 ; 
+      h2{
+      color: #fff
+      }
+    }
+
+    .image {
+      top:  70vh;
+      height: 30%;
+           
+        img {
+        
+        width: 100%;
+        height: auto;
+        }
+      
+
 
 .texto{
 max-width: 60%;

@@ -8,6 +8,80 @@ export const MainStyle = styled.main`
   font-family: 'Poppins';
   ;
 
+  @media (max-width: 760px){
+    flex-direction: column;
+    
+
+    .texto {
+      max-width: 90%; 
+      padding: 9vh 3vw 1vh 5vw;
+      
+      h1, h2 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+
+      h2 span {
+        font-size: 48px; 
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        width: 60%; 
+      }
+    }
+
+    .image {
+      position: static; 
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      height: 35vh;
+
+      img {
+        width: 60%;
+        height: auto; 
+      }
+
+      .copo{
+        top: 55vh;
+      }
+
+      .fundo{
+        top: 55vh;
+        height: 33vh
+      }
+
+      .social {
+        gap: 0.5rem;
+        
+        
+
+        a img {
+          max-height: 3vh; /* Reduz ícones */
+        }
+      }
+    }
+
+    .sabores {
+      position: static; 
+      display: flex;
+      justify-content: center;
+      background-color: #00754a;
+
+      img:hover {
+        transform: none; 
+      }
+    }
+  }
+
+  }
+
   .texto {
     max-width: 60%;
     top: -50vh ;

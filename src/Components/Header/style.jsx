@@ -6,6 +6,18 @@ justify-content: space-between;
 align-items: center;
 margin: 0 5vw 0 5vw;
 
+@media (max-width: 768px) {
+    img{
+    height: 8vh
+    }
+    
+    nav ul{
+        width: 100%;
+        }
+    }
+}
+
+ 
 
 img{
     height: 12vh;
